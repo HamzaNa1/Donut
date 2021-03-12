@@ -14,7 +14,7 @@ namespace Donut
             
             while (true)
             {
-                donut.RenderFrameDonutShaped(A, B);
+                donut.RenderFrame(A, B);
 
                 A += 0.02f;
                 B += 0.01f;
